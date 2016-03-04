@@ -10,7 +10,6 @@ describe('actions', () => {
 
     const expectedAction = {
       type: types.SEND_MESSAGE,
-      id: 1,
       text: text,
       autor: autor,
       created: created
@@ -19,23 +18,4 @@ describe('actions', () => {
     expect(actions.sendMessage(text, autor, created)).toEqual(expectedAction);
   });
 
-
-  it('should create an action to delete a message', () => {
-    const id = 1;
-
-    const expectedAction = {
-      type: types.DELETE_MESSAGE,
-      id: 1
-    };
-
-    expect(actions.deleteMessage(id)).toEqual(expectedAction);
-  });
-
-  it('should create an action to delete all messages', () => {
-    const expectedAction = {
-      type: types.DELETE_ALL_MESSAGES
-    };
-
-    expect(actions.deleteAllMessages()).toEqual(expectedAction);
-  });
 });

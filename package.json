@@ -29,6 +29,7 @@
     "eslint-plugin-import": "^0.13.0",
     "eslint-plugin-react": "^3.6.3",
     "expect": "^1.14.0",
+    "express": "^4.13.4",
     "file-loader": "^0.8.4",
     "html-webpack-plugin": "^1.6.1",
     "jsdom": "^8.0.4",
@@ -42,6 +43,7 @@
     "redbox-react": "^1.0.4",
     "redux-devtools": "^3.1",
     "sass-loader": "^2.0.1",
+    "socket.io": "^1.4.5",
     "style-loader": "^0.12.1",
     "url-loader": "^0.5.6",
     "webpack": "^1.11.0",
@@ -57,6 +59,7 @@
     "react-pure-render": "^1.0.2",
     "react-redux": "^4.0.0",
     "redux": "^3.0.0",
+    "socket.io-client": "^1.4.5",
     "yargs": "^3.18.0"
   },
   "babel": {

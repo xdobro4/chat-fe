@@ -17,7 +17,7 @@ describe('todos messageList', () => {
       expect(
         messageList(List(), {
           id: 0,
-          type: types.SEND_MESSAGE,
+          type: types.SHOW_MESSAGE,
           text: 'Run the tests',
           autor: 'autor',
           created: created
@@ -43,7 +43,7 @@ describe('todos messageList', () => {
           })),
           {
             id: 1,
-            type: types.SEND_MESSAGE,
+            type: types.SHOW_MESSAGE,
             text: 'Run the tests',
             autor: 'autor',
             created: created
